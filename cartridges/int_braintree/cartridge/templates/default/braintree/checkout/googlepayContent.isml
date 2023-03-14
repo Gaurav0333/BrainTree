@@ -1,0 +1,59 @@
+
+<isset name="braintreeGooglepayPaymentMethodNonce" value="${pdict.braintree.googlepayConfig.braintreePaymentMethodNonce}" scope="page" />
+<isset name="braintreeGooglePayCardDescription" value="${pdict.braintree.googlepayConfig.braintreeGooglePayCardDescription || 'GooglePay'}" scope="page" />
+
+<div class="tab-pane googlepay-content js_braintree_googlepayContent" id="googlepay-content" role="tabpanel" data-paypal-is-hide-continue-button="${pdict.braintree.googlepayConfig.isNeedHideContinueButton}">
+    <fieldset class="payment-form-fields">
+        <input type="hidden" class="form-control" name="isBraintree" value="true" disabled="disabled" />
+        <input type="hidden" class="form-control" name="${pdict.forms.billingForm.paymentMethod.htmlName}" value="GooglePay" >
+        <isif condition="${customer.authenticated && !empty(pdict.braintree.googlepayConfig.customerGooglepayPaymentInstruments) && (empty(braintreeGooglepayPaymentMethodNonce) || session.custom.showGooglePayList)}">
+            <div class="form-group">
+                <label class="form-control-label" for="braintreeGooglepayAccountsList">${Resource.msg('braintree.checkout.googlepayaccountlist.label','locale',null)}</label>
+                <select name="braintreeGooglepayAccountsList" id="braintreeGooglepayAccountsList" class="form-control">
+                    <option value="newaccount" <isif condition="${pdict.braintree.googlepayConfig.newAccountSelected}">selected="selected"</isif>>${Resource.msg('braintree.checkout.googlepayaccountlist.newaccount','locale',null)}</option>
+                    <isloop items="${pdict.braintree.googlepayConfig.customerGooglepayPaymentInstruments}" var="instrument">
+                        <option value="${instrument.UUID}" data-default="${instrument.creditCardToken}" data-id="${instrument.UUID}" <isif condition="${instrument.creditCardToken}">selected="selected" </isif>>
+                            ${Resource.msgf('braintree.checkout.googlepayaccountlist.option', 'locale', null, instrument.custom.braintreeGooglePaySourceDescription)}
+                        </option>
+                    </isloop>
+                </select>
+            </div>
+        </isif>
+
+        <div class="form-group js_braintree_used_googlepay_account ${!empty(braintreeGooglepayPaymentMethodNonce) && !session.custom.showGooglePayList ? 'used-googlepay-account' : 'used-googlepay-account-hide'}">
+            <label class="form-control-label" for="braintreeGooglepayAccount">${Resource.msg('braintree.checkout.googlepayaccountselected.label','locale',null)}</label>
+            <select id="braintreeGooglepayAccount" class="form-control no-disable" disabled="disabled" data-customer-authenticated="${customer.authenticated}">
+                <option selected="selected">
+                    ${Resource.msgf('braintree.checkout.googlepayaccountlist.option', 'locale', null, braintreeGooglePayCardDescription)}
+                </option>
+            </select>
+        </div>
+
+        <isif condition="${customer.authenticated && pdict.braintree.googlepayConfig.canBeSavedGooglepayAccount}">
+            <div id="braintreeSaveGooglepayAccountContainer" class="form-group custom-control custom-checkbox">
+                <input class="custom-control-input" name="braintreeSaveGooglepayAccount" id="braintreeSaveGooglepayAccount" type="checkbox" checked="checked" value="true" />
+                <label class="custom-control-label" for="braintreeSaveGooglepayAccount"><span>${Resource.msg('braintree.checkout.googlepay.saveaccount', 'locale', null)}</span></label>
+            </div>
+        </isif>
+
+       <input id="braintreeGooglePayCardDescription" type="hidden" name="braintreeGooglePayCardDescription" value="${braintreeGooglePayCardDescription}"/>
+
+
+        <div class="braintree-billingpage-google-buttons-wrap js_braintree_googlepayButtonsWrap">
+            <div class="braintree-billingpage-google-button-wrap">
+                <div class="braintree-billingpage-google-button js_braintree_googlepay_button" data-braintree-config="${JSON.stringify(pdict.braintree.googlepayButtonConfig)}" style="display:${pdict.braintree.googlepayConfig.isNeedHideContinueButton ? 'block' : 'none'}">
+                    <div class="google-pay-button-with-text google-pay-button-black-with-text"><span class="text"></span><span class="logo"></span></div>
+                </div>
+                <div class="braintreeGooglepayLoader braintree-loader-container">
+                    <i class="braintree-loader"></i>
+                </div>
+            </div>
+        </div>
+
+        <input type="hidden" id="braintreeGooglePayNonce" name="braintreeGooglePayNonce" value="${braintreeGooglepayPaymentMethodNonce}"/>
+        <input type="hidden" name="braintreeGooglePayShippingAddress" value=""/>
+        <input type="hidden" name="braintreeGooglePayBillingAddress" value=""/>
+        <input type="hidden" id="braintreeGooglepayPaymentType" name="braintreeGooglepayPaymentType" value="${session.privacy.googlepayPaymentType || ""}"/>
+
+    </fieldset>
+</div>

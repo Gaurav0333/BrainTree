@@ -1,0 +1,13 @@
+<isif condition="${pdict.isActive}">
+    <div>
+        <script type="text/javascript" data-pp-pubid="${pdict.publisherID}" data-pp-placementtype="${pdict.bannerSize}">
+        (function (d, t) {
+            "use strict";
+            var s = d.getElementsByTagName(t)[0],
+            n = d.createElement(t);
+            n.src = "//paypal.adtag.where.com/merchant.js";
+            s.parentNode.insertBefore(n, s);
+        }(document, "script"));
+    </script>
+    </div>
+</isif>

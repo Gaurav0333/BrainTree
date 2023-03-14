@@ -1,0 +1,51 @@
+{
+
+	"email" : "autotesting3@test.ua",
+	"password" : "National!34",
+	
+	"BMLogin":"epam",
+	"BMPassword": "MasterPassword-5",
+	
+	"paypalEmail" : "sb-cjekn3792153@personal.example.com",
+	"paypalPassword" : "FZbr>y39",
+	
+	"paypalCreditEmail" : "ptest4@paypal.com",
+	"paypalCreditPassword" : "11111111", 
+
+	"paypalEmailCheck" : "ptest4@paypal.com",
+	"paypalPasswordCheck" : "11111111", 
+	
+	"firstName" : "Tania",
+	"lastName" : "Lieberman",
+	"addressOne" : "473 Wiseman Street",
+	"country" : "United States",
+	"state" : "Tennessee",
+	"city" : "Sevierville",
+	"zip" : "37862",
+	"phone" : "6505895223",
+	
+	"firstNameCheck" : "Joe",
+	"lastNameCheck" : "Rogan",
+	"addressOneCheck" : "1234 Fluffy drive",
+	"countryCheck" : "United States",
+	"stateCheck" : "California",
+	"cityCheck" : "Los Angeles",
+	"zipCheck" : "94077",
+	"phoneCheck" : "3202496830",
+	
+	"nameOnCard" : "Tania Lieberman",
+	"cardNumber" : "4111111111111111",
+	"cvv" : "982",
+	"expiration" : "12/25",
+
+	"nameOnCard2" : "Joe Rogan",
+	"cardNumber2" : "4111111111111111",
+	"cvv2" : "872",
+	"expiration2" : "01/22",
+	
+	"myAccountPage" : "https://paypal05-tech-prtnr-na06-dw.demandware.net/s/RefArch/account?lang=en_US" ,
+	"productPageTV" : "https://paypal05-tech-prtnr-na06-dw.demandware.net/s/RefArch/electronics/gaming/game%20consoles/sony-ps3-consoleM.html?lang=en_US",
+	"loginPage" : "https://paypal05-tech-prtnr-na06-dw.demandware.net/on/demandware.store/Sites-RefArch-Site/en_US/Login-Show",
+	"account" : "'account'",
+	"bmLoginPage" : "https://paypal05-tech-prtnr-na06-dw.demandware.net/on/demandware.store/Sites-Site/default/ViewApplication-BM?csrf_token=Yz5r5w086tlC4y9r0OK4m4kILpRn7VN6hvmkaCO2U078JmkJGGpIh8WanJGVITfrD4i8pgf7-LAHU7ZJ--KoNHpMVJ-nNr39m9ZhPrgSlA2gJMyJf0d86SncRcNpvuXn3sM6VM5ErIHBHdqLp6SsbPzT56cx499beQKqnwdYrndzZ_DmvQA=#/?preference#site_preference_group_attributes!id!BRAINTREE_CREDIT"
+}

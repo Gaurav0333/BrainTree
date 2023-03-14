@@ -1,0 +1,27 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets');
+    assets.addJs(pdict.braintree.prefs.clientSdk3ClientUrl);
+    assets.addJs(pdict.braintree.prefs.clientSdk3DataCollectorUrl);
+
+    assets.addJs(pdict.braintree.prefs.clientSdk3PayPalUrl);
+    assets.addJs(pdict.braintree.prefs.clientSdk3PayPalCheckoutUrl);
+
+    assets.addJs(pdict.braintree.prefs.clientSdk3ApplePayUrl);
+
+    assets.addJs(pdict.braintree.prefs.googlePaySdkUrl);
+    assets.addJs(pdict.braintree.prefs.braintreeGooglePaySdkUrl);
+
+    assets.addCss('/css/braintree.css');
+</isscript>
+
+<isif condition="${pdict.braintree && pdict.braintree.payPalButtonConfig !== null}">
+    <isinclude template="braintree/cart/paypalButton" />
+</isif>
+
+<isif condition="${pdict.braintree && pdict.braintree.prefs.googlepayVisibilityOnCart}">
+    <isinclude template="braintree/cart/googlepayButton" />
+</isif>
+
+<isif condition="${pdict.braintree && pdict.braintree.prefs.applepayVisibilityOnCart}">
+    <isinclude template="braintree/cart/applepayButton" />
+</isif>

@@ -1,0 +1,12 @@
+{
+	"processorCreditPath": "../../cartridges/int_braintree/cartridge/scripts/braintree/processors/processorCredit",
+	"processorPaypalPath": "../../cartridges/int_braintree/cartridge/scripts/braintree/processors/processorPaypal",
+	"processorApplepayPath": "../../cartridges/int_braintree/cartridge/scripts/braintree/processors/processorApplepay",
+	"requestDataContainerPath" : "../../cartridges/int_braintree/cartridge/scripts/braintree/braintreeAPI/requestDataContainer",
+	"paypalRestApiPath" : "../../cartridges/paypal_credit_financing_options/cartridge/scripts/paypalRestApi",
+	"paypalCreditFinancingOptionsHelperPath" : "../../cartridges/paypal_credit_financing_options/cartridge/scripts/paypalCreditFinancingOptionsHelper.js",
+	"braintreeApiPath" : "../../cartridges/int_braintree/cartridge/scripts/braintree/braintreeApi/braintreeApi",
+	"processorHelperPath" : "../../cartridges/int_braintree/cartridge/scripts/braintree/processors/processorHelper",
+	"paymentHelperPath" : "../../cartridges/int_braintree/cartridge/scripts/braintree/helpers/paymentHelper",
+	"customerHelperPath" : "../../cartridges/int_braintree/cartridge/scripts/braintree/helpers/customerHelper"
+}

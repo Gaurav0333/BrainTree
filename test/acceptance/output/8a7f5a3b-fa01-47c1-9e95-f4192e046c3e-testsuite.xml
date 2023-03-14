@@ -1,0 +1,203 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597051583519' stop='1597051677785'>
+    <name>Checkout:</name>
+    <title>Checkout:</title>
+    <test-cases>
+        <test-case start='1597051583521' status='passed' stop='1597051677713'>
+            <name>18 Guest can place order from PDP using PayPal account</name>
+            <title>18 Guest can place order from PDP using PayPal account</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597051589585' status='passed' stop='1597051596325'>
+                    <name>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/s/MobileFirst/electronics/gaming/game%20consoles/sony-ps3-consoleM.html?lang=en_US"</name>
+                    <title>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/s/MobileFirst/electronics/gaming/game%20consoles/sony-ps3-consoleM.html?lang=en_US"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051596326' status='passed' stop='1597051596437'>
+                    <name>I click "Yes"</name>
+                    <title>I click "Yes"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051596437' status='passed' stop='1597051599439'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051599439' status='passed' stop='1597051655724'>
+                    <name>I: usePPfromMiniCart </name>
+                    <title>I: usePPfromMiniCart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597051599439' status='passed' stop='1597051599448'>
+                            <name>I grab current window handle </name>
+                            <title>I grab current window handle </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051599448' status='passed' stop='1597051599496'>
+                            <name>I switch to "iframe.component-frame.visible"</name>
+                            <title>I switch to "iframe.component-frame.visible"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051599496' status='passed' stop='1597051601499'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051601499' status='passed' stop='1597051601804'>
+                            <name>I click "[data-funding-source='paypal']"</name>
+                            <title>I click "[data-funding-source='paypal']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051601804' status='passed' stop='1597051605816'>
+                            <name>I wait 4</name>
+                            <title>I wait 4</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051605816' status='passed' stop='1597051605821'>
+                            <name>I grab all window handles </name>
+                            <title>I grab all window handles </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051605821' status='passed' stop='1597051605831'>
+                            <name>I switch to window "CDwindow-A210894209E374301A9EB784DE9213A5"</name>
+                            <title>I switch to window "CDwindow-A210894209E374301A9EB784DE9213A5"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051605833' status='passed' stop='1597051611833'>
+                            <name>I wait 6</name>
+                            <title>I wait 6</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051611833' status='passed' stop='1597051616384'>
+                            <name>I click "Accept"</name>
+                            <title>I click "Accept"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051616384' status='passed' stop='1597051619386'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051619386' status='passed' stop='1597051619993'>
+                            <name>I fill field "Email", "epamtester@pptest.com"</name>
+                            <title>I fill field "Email", "epamtester@pptest.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051619993' status='passed' stop='1597051620121'>
+                            <name>I click "Next"</name>
+                            <title>I click "Next"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051620121' status='passed' stop='1597051623123'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051623123' status='passed' stop='1597051623271'>
+                            <name>I fill field "Password", "epamtest"</name>
+                            <title>I fill field "Password", "epamtest"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051623271' status='passed' stop='1597051630421'>
+                            <name>I click "Log In"</name>
+                            <title>I click "Log In"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051630421' status='passed' stop='1597051642422'>
+                            <name>I wait 12</name>
+                            <title>I wait 12</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051642422' status='passed' stop='1597051642612'>
+                            <name>I click "Continue"</name>
+                            <title>I click "Continue"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051642612' status='passed' stop='1597051652613'>
+                            <name>I wait 10</name>
+                            <title>I wait 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051652613' status='passed' stop='1597051652708'>
+                            <name>I click "Continue"</name>
+                            <title>I click "Continue"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051652708' status='passed' stop='1597051655711'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051655711' status='passed' stop='1597051655722'>
+                            <name>I switch to window "CDwindow-71E3297D4334FF787F08E63217BC01ED"</name>
+                            <title>I switch to window "CDwindow-71E3297D4334FF787F08E63217BC01ED"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597051655724' status='passed' stop='1597051665727'>
+                    <name>I wait 10</name>
+                    <title>I wait 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051665727' status='passed' stop='1597051666038'>
+                    <name>I see "Place Order"</name>
+                    <title>I see "Place Order"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051666038' status='passed' stop='1597051666124'>
+                    <name>I click "Place Order"</name>
+                    <title>I click "Place Order"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051666124' status='passed' stop='1597051676127'>
+                    <name>I wait 10</name>
+                    <title>I wait 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051676127' status='passed' stop='1597051677519'>
+                    <name>I see "Receipt"</name>
+                    <title>I see "Receipt"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051677519' status='passed' stop='1597051677713'>
+                    <name>I see "Thank you for your order"</name>
+                    <title>I see "Thank you for your order"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

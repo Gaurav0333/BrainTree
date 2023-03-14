@@ -1,0 +1,550 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597050957954' stop='1597051119637'>
+    <name>Buisness manager:</name>
+    <title>Buisness manager:</title>
+    <test-cases>
+        <test-case start='1597050957960' status='passed' stop='1597050998323'>
+            <name>13 disable 3ds</name>
+            <title>13 disable 3ds</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597050964064' status='passed' stop='1597050972668'>
+                    <name>I: loginToBM </name>
+                    <title>I: loginToBM </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597050964064' status='passed' stop='1597050965314'>
+                            <name>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/on/demandware.store/Sites-Site/default/ViewApplication-BM?csrf_token=Yz5r5w086tlC4y9r0OK4m4kILpRn7VN6hvmkaCO2U078JmkJGGpIh8WanJGVITfrD4i8pgf7-LAHU7ZJ--KoNHpMVJ-nNr39m9ZhPrgSlA2gJMyJf0d86SncRcNpvuXn3sM6VM5ErIHBHdqLp6SsbPzT56cx499beQKqnwdYrndzZ_DmvQA=#/?preference#site_preference_group_attributes!id!BRAINTREE_CREDIT"</name>
+                            <title>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/on/demandware.store/Sites-Site/default/ViewApplication-BM?csrf_token=Yz5r5w086tlC4y9r0OK4m4kILpRn7VN6hvmkaCO2U078JmkJGGpIh8WanJGVITfrD4i8pgf7-LAHU7ZJ--KoNHpMVJ-nNr39m9ZhPrgSlA2gJMyJf0d86SncRcNpvuXn3sM6VM5ErIHBHdqLp6SsbPzT56cx499beQKqnwdYrndzZ_DmvQA=#/?preference#site_preference_group_attributes!id!BRAINTREE_CREDIT"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597050965314' status='passed' stop='1597050967314'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597050967314' status='passed' stop='1597050967422'>
+                            <name>I fill field "LoginForm_Login", "s.polskoi"</name>
+                            <title>I fill field "LoginForm_Login", "s.polskoi"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597050967422' status='passed' stop='1597050967532'>
+                            <name>I fill field "LoginForm_Password", "Cinderella!39"</name>
+                            <title>I fill field "LoginForm_Password", "Cinderella!39"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597050967533' status='passed' stop='1597050970667'>
+                            <name>I click "login"</name>
+                            <title>I click "login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597050970667' status='passed' stop='1597050972667'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597050972668' status='passed' stop='1597050998323'>
+                    <name>I: disable3DS </name>
+                    <title>I: disable3DS </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597050972668' status='passed' stop='1597050974671'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597050974671' status='passed' stop='1597050977357'>
+                            <name>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/on/demandware.store/Sites-Site/default/ViewApplication-BM?csrf_token=Yz5r5w086tlC4y9r0OK4m4kILpRn7VN6hvmkaCO2U078JmkJGGpIh8WanJGVITfrD4i8pgf7-LAHU7ZJ--KoNHpMVJ-nNr39m9ZhPrgSlA2gJMyJf0d86SncRcNpvuXn3sM6VM5ErIHBHdqLp6SsbPzT56cx499beQKqnwdYrndzZ_DmvQA=#/?preference#site_preference_group_attributes!id!BRAINTREE_CREDIT"</name>
+                            <title>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/on/demandware.store/Sites-Site/default/ViewApplication-BM?csrf_token=Yz5r5w086tlC4y9r0OK4m4kILpRn7VN6hvmkaCO2U078JmkJGGpIh8WanJGVITfrD4i8pgf7-LAHU7ZJ--KoNHpMVJ-nNr39m9ZhPrgSlA2gJMyJf0d86SncRcNpvuXn3sM6VM5ErIHBHdqLp6SsbPzT56cx499beQKqnwdYrndzZ_DmvQA=#/?preference#site_preference_group_attributes!id!BRAINTREE_CREDIT"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597050977357' status='passed' stop='1597050984358'>
+                            <name>I wait 7</name>
+                            <title>I wait 7</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597050984358' status='passed' stop='1597050985744'>
+                            <name>I click "RefArch"</name>
+                            <title>I click "RefArch"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597050985744' status='passed' stop='1597050987114'>
+                            <name>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/on/demandware.store/Sites-Site/default/ViewApplication-BM?csrf_token=Yz5r5w086tlC4y9r0OK4m4kILpRn7VN6hvmkaCO2U078JmkJGGpIh8WanJGVITfrD4i8pgf7-LAHU7ZJ--KoNHpMVJ-nNr39m9ZhPrgSlA2gJMyJf0d86SncRcNpvuXn3sM6VM5ErIHBHdqLp6SsbPzT56cx499beQKqnwdYrndzZ_DmvQA=#/?preference#site_preference_group_attributes!id!BRAINTREE_CREDIT"</name>
+                            <title>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/on/demandware.store/Sites-Site/default/ViewApplication-BM?csrf_token=Yz5r5w086tlC4y9r0OK4m4kILpRn7VN6hvmkaCO2U078JmkJGGpIh8WanJGVITfrD4i8pgf7-LAHU7ZJ--KoNHpMVJ-nNr39m9ZhPrgSlA2gJMyJf0d86SncRcNpvuXn3sM6VM5ErIHBHdqLp6SsbPzT56cx499beQKqnwdYrndzZ_DmvQA=#/?preference#site_preference_group_attributes!id!BRAINTREE_CREDIT"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597050987114' status='passed' stop='1597050994115'>
+                            <name>I wait 7</name>
+                            <title>I wait 7</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597050994115' status='passed' stop='1597050994256'>
+                            <name>I select option "#dw-select-62 > select", "1"</name>
+                            <title>I select option "#dw-select-62 > select", "1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597050994256' status='passed' stop='1597050996257'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597050996257' status='passed' stop='1597050996322'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597050996322' status='passed' stop='1597050998323'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597050998380' status='passed' stop='1597051077660'>
+            <name>13 Guest can place order using credit card on checkout without 3DS</name>
+            <title>13 Guest can place order using credit card on checkout without 3DS</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597051004540' status='passed' stop='1597051011980'>
+                    <name>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/s/MobileFirst/electronics/gaming/game%20consoles/sony-ps3-consoleM.html?lang=en_US"</name>
+                    <title>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/s/MobileFirst/electronics/gaming/game%20consoles/sony-ps3-consoleM.html?lang=en_US"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051011980' status='passed' stop='1597051012081'>
+                    <name>I click "Yes"</name>
+                    <title>I click "Yes"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051012081' status='passed' stop='1597051012158'>
+                    <name>I select option "Quantity", "1"</name>
+                    <title>I select option "Quantity", "1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051012158' status='passed' stop='1597051014158'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051014158' status='passed' stop='1597051014230'>
+                    <name>I click "Add to Cart"</name>
+                    <title>I click "Add to Cart"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051014230' status='passed' stop='1597051016231'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051016231' status='passed' stop='1597051021243'>
+                    <name>I click "div.minicart-total.hide-link-med"</name>
+                    <title>I click "div.minicart-total.hide-link-med"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051021243' status='passed' stop='1597051026245'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051026245' status='passed' stop='1597051028457'>
+                    <name>I click "Checkout"</name>
+                    <title>I click "Checkout"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051028457' status='passed' stop='1597051031457'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051031457' status='passed' stop='1597051036244'>
+                    <name>I click "Checkout as Guest"</name>
+                    <title>I click "Checkout as Guest"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051036244' status='passed' stop='1597051058495'>
+                    <name>I: fillShippingData </name>
+                    <title>I: fillShippingData </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597051036244' status='passed' stop='1597051036365'>
+                            <name>I fill field "First Name", "Tania"</name>
+                            <title>I fill field "First Name", "Tania"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051036365' status='passed' stop='1597051039367'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051039367' status='passed' stop='1597051039554'>
+                            <name>I fill field "Last Name", "Lieberman"</name>
+                            <title>I fill field "Last Name", "Lieberman"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051039554' status='passed' stop='1597051042558'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051042558' status='passed' stop='1597051042785'>
+                            <name>I fill field "Address 1", "473 Wiseman Street"</name>
+                            <title>I fill field "Address 1", "473 Wiseman Street"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051042785' status='passed' stop='1597051045786'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051045786' status='passed' stop='1597051045871'>
+                            <name>I select option "Country", "United States"</name>
+                            <title>I select option "Country", "United States"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051045871' status='passed' stop='1597051048871'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051048871' status='passed' stop='1597051048993'>
+                            <name>I select option "State", "Tennessee"</name>
+                            <title>I select option "State", "Tennessee"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051048993' status='passed' stop='1597051051994'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051051994' status='passed' stop='1597051052163'>
+                            <name>I fill field "City", "Sevierville"</name>
+                            <title>I fill field "City", "Sevierville"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051052163' status='passed' stop='1597051055164'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051055164' status='passed' stop='1597051055297'>
+                            <name>I fill field "ZIP Code", "37862"</name>
+                            <title>I fill field "ZIP Code", "37862"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051055297' status='passed' stop='1597051058297'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051058297' status='passed' stop='1597051058494'>
+                            <name>I fill field "Phone Number", "6505895223"</name>
+                            <title>I fill field "Phone Number", "6505895223"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597051058495' status='passed' stop='1597051058577'>
+                    <name>I click "Next: Payment"</name>
+                    <title>I click "Next: Payment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051058577' status='passed' stop='1597051061578'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051061578' status='passed' stop='1597051061778'>
+                    <name>I fill field "#email", "autotesting2@test.ua"</name>
+                    <title>I fill field "#email", "autotesting2@test.ua"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051061778' status='passed' stop='1597051062547'>
+                    <name>I: fillCardData </name>
+                    <title>I: fillCardData </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597051061778' status='passed' stop='1597051061971'>
+                            <name>I fill field "Name on Card", "Tania Lieberman"</name>
+                            <title>I fill field "Name on Card", "Tania Lieberman"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051061972' status='passed' stop='1597051062018'>
+                            <name>I switch to "#braintree-hosted-field-number"</name>
+                            <title>I switch to "#braintree-hosted-field-number"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051062018' status='passed' stop='1597051062216'>
+                            <name>I fill field "#credit-card-number", "4111111111111111"</name>
+                            <title>I fill field "#credit-card-number", "4111111111111111"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051062216' status='passed' stop='1597051062225'>
+                            <name>I switch to </name>
+                            <title>I switch to </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051062225' status='passed' stop='1597051062263'>
+                            <name>I switch to "#braintree-hosted-field-cvv"</name>
+                            <title>I switch to "#braintree-hosted-field-cvv"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051062263' status='passed' stop='1597051062368'>
+                            <name>I fill field "#cvv", "982"</name>
+                            <title>I fill field "#cvv", "982"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051062368' status='passed' stop='1597051062378'>
+                            <name>I switch to </name>
+                            <title>I switch to </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051062378' status='passed' stop='1597051062431'>
+                            <name>I switch to "#braintree-hosted-field-expirationDate"</name>
+                            <title>I switch to "#braintree-hosted-field-expirationDate"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051062431' status='passed' stop='1597051062539'>
+                            <name>I fill field "expiration", "12/25"</name>
+                            <title>I fill field "expiration", "12/25"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051062539' status='passed' stop='1597051062543'>
+                            <name>I switch to </name>
+                            <title>I switch to </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051062543' status='passed' stop='1597051062547'>
+                            <name>I switch to </name>
+                            <title>I switch to </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597051062547' status='passed' stop='1597051064547'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051064547' status='passed' stop='1597051064629'>
+                    <name>I click "Next: Place Order"</name>
+                    <title>I click "Next: Place Order"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051064629' status='passed' stop='1597051069629'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051069629' status='passed' stop='1597051069707'>
+                    <name>I click "Place Order"</name>
+                    <title>I click "Place Order"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051069707' status='passed' stop='1597051074708'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051074708' status='passed' stop='1597051077489'>
+                    <name>I see "Receipt"</name>
+                    <title>I see "Receipt"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1597051077489' status='passed' stop='1597051077660'>
+                    <name>I see "Thank you for your order"</name>
+                    <title>I see "Thank you for your order"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597051077706' status='passed' stop='1597051119528'>
+            <name>13 enable 3ds</name>
+            <title>13 enable 3ds</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597051083887' status='passed' stop='1597051094913'>
+                    <name>I: loginToBM </name>
+                    <title>I: loginToBM </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597051083887' status='passed' stop='1597051085160'>
+                            <name>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/on/demandware.store/Sites-Site/default/ViewApplication-BM?csrf_token=Yz5r5w086tlC4y9r0OK4m4kILpRn7VN6hvmkaCO2U078JmkJGGpIh8WanJGVITfrD4i8pgf7-LAHU7ZJ--KoNHpMVJ-nNr39m9ZhPrgSlA2gJMyJf0d86SncRcNpvuXn3sM6VM5ErIHBHdqLp6SsbPzT56cx499beQKqnwdYrndzZ_DmvQA=#/?preference#site_preference_group_attributes!id!BRAINTREE_CREDIT"</name>
+                            <title>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/on/demandware.store/Sites-Site/default/ViewApplication-BM?csrf_token=Yz5r5w086tlC4y9r0OK4m4kILpRn7VN6hvmkaCO2U078JmkJGGpIh8WanJGVITfrD4i8pgf7-LAHU7ZJ--KoNHpMVJ-nNr39m9ZhPrgSlA2gJMyJf0d86SncRcNpvuXn3sM6VM5ErIHBHdqLp6SsbPzT56cx499beQKqnwdYrndzZ_DmvQA=#/?preference#site_preference_group_attributes!id!BRAINTREE_CREDIT"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051085160' status='passed' stop='1597051087161'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051087161' status='passed' stop='1597051087245'>
+                            <name>I fill field "LoginForm_Login", "s.polskoi"</name>
+                            <title>I fill field "LoginForm_Login", "s.polskoi"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051087245' status='passed' stop='1597051087335'>
+                            <name>I fill field "LoginForm_Password", "Cinderella!39"</name>
+                            <title>I fill field "LoginForm_Password", "Cinderella!39"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051087335' status='passed' stop='1597051092912'>
+                            <name>I click "login"</name>
+                            <title>I click "login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051092912' status='passed' stop='1597051094913'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597051094913' status='passed' stop='1597051119528'>
+                    <name>I: enable3DS </name>
+                    <title>I: enable3DS </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597051094913' status='passed' stop='1597051096916'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051096916' status='passed' stop='1597051099823'>
+                            <name>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/on/demandware.store/Sites-Site/default/ViewApplication-BM?csrf_token=Yz5r5w086tlC4y9r0OK4m4kILpRn7VN6hvmkaCO2U078JmkJGGpIh8WanJGVITfrD4i8pgf7-LAHU7ZJ--KoNHpMVJ-nNr39m9ZhPrgSlA2gJMyJf0d86SncRcNpvuXn3sM6VM5ErIHBHdqLp6SsbPzT56cx499beQKqnwdYrndzZ_DmvQA=#/?preference#site_preference_group_attributes!id!BRAINTREE_CREDIT"</name>
+                            <title>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/on/demandware.store/Sites-Site/default/ViewApplication-BM?csrf_token=Yz5r5w086tlC4y9r0OK4m4kILpRn7VN6hvmkaCO2U078JmkJGGpIh8WanJGVITfrD4i8pgf7-LAHU7ZJ--KoNHpMVJ-nNr39m9ZhPrgSlA2gJMyJf0d86SncRcNpvuXn3sM6VM5ErIHBHdqLp6SsbPzT56cx499beQKqnwdYrndzZ_DmvQA=#/?preference#site_preference_group_attributes!id!BRAINTREE_CREDIT"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051099823' status='passed' stop='1597051106824'>
+                            <name>I wait 7</name>
+                            <title>I wait 7</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051106824' status='passed' stop='1597051107874'>
+                            <name>I click "RefArch"</name>
+                            <title>I click "RefArch"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051107874' status='passed' stop='1597051108336'>
+                            <name>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/on/demandware.store/Sites-Site/default/ViewApplication-BM?csrf_token=Yz5r5w086tlC4y9r0OK4m4kILpRn7VN6hvmkaCO2U078JmkJGGpIh8WanJGVITfrD4i8pgf7-LAHU7ZJ--KoNHpMVJ-nNr39m9ZhPrgSlA2gJMyJf0d86SncRcNpvuXn3sM6VM5ErIHBHdqLp6SsbPzT56cx499beQKqnwdYrndzZ_DmvQA=#/?preference#site_preference_group_attributes!id!BRAINTREE_CREDIT"</name>
+                            <title>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/on/demandware.store/Sites-Site/default/ViewApplication-BM?csrf_token=Yz5r5w086tlC4y9r0OK4m4kILpRn7VN6hvmkaCO2U078JmkJGGpIh8WanJGVITfrD4i8pgf7-LAHU7ZJ--KoNHpMVJ-nNr39m9ZhPrgSlA2gJMyJf0d86SncRcNpvuXn3sM6VM5ErIHBHdqLp6SsbPzT56cx499beQKqnwdYrndzZ_DmvQA=#/?preference#site_preference_group_attributes!id!BRAINTREE_CREDIT"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051108336' status='passed' stop='1597051115337'>
+                            <name>I wait 7</name>
+                            <title>I wait 7</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051115337' status='passed' stop='1597051115458'>
+                            <name>I select option "#dw-select-62 > select", "0"</name>
+                            <title>I select option "#dw-select-62 > select", "0"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051115458' status='passed' stop='1597051117465'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051117465' status='passed' stop='1597051117528'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1597051117528' status='passed' stop='1597051119528'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

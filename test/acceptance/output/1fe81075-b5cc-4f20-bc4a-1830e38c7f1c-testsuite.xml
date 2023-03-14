@@ -1,0 +1,127 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1596806609520' stop='1596806675248'>
+    <name>Checkout:</name>
+    <title>Checkout:</title>
+    <test-cases>
+        <test-case start='1596806609521' status='failed' stop='1596806644252'>
+            <name>19 User can place order from PDP using PayPal account</name>
+            <title>19 User can place order from PDP using PayPal account</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1596806631450' status='passed' stop='1596806639059'>
+                    <name>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/s/MobileFirst/electronics/gaming/game%20consoles/sony-ps3-consoleM.html?lang=en_US"</name>
+                    <title>I am on page "https://paypal05-tech-prtnr-na06-dw.demandware.net/s/MobileFirst/electronics/gaming/game%20consoles/sony-ps3-consoleM.html?lang=en_US"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1596806639059' status='passed' stop='1596806642061'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1596806642061' status='failed' stop='1596806644252'>
+                    <name>I: usePPAsUser1Continue </name>
+                    <title>I: usePPAsUser1Continue </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596806642061' status='passed' stop='1596806642071'>
+                            <name>I grab current window handle </name>
+                            <title>I grab current window handle </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596806642073' status='passed' stop='1596806642127'>
+                            <name>I switch to "iframe.component-frame.visible"</name>
+                            <title>I switch to "iframe.component-frame.visible"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596806642127' status='passed' stop='1596806644128'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596806644128' status='failed' stop='1596806644252'>
+                            <name>I click "[data-funding-source='paypal']"</name>
+                            <title>I click "[data-funding-source='paypal']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='f8a633f1-064b-4b60-8406-81c0b7b4d8c6-attachment.png' type='image/png' size='125858'/>
+            </attachments>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=84.0.4147.105)
+                  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18362 x86_64)</message>
+                <stack-trace>Error: element not interactable
+                  (Session info: chrome=84.0.4147.105)
+                  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18362 x86_64)
+                    at getErrorFromResponseBody (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\node_modules\webdriverio\node_modules\webdriver\build\utils.js:124:10)
+                    at WebDriverRequest._request (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\node_modules\webdriverio\node_modules\webdriver\build\request.js:148:56)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Browser.wrapCommandFn (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:74:23)
+                    at async Object.usePPAsUser1Continue (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\steps_file.js:104:32)
+                    at async Test.&lt;anonymous> (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\19_user_paypal_PDP_test.js:23:2)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1596806644629' status='failed' stop='1596806674700'>
+            <name>Remove all saved methods</name>
+            <title>Remove all saved methods</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1596806667724' status='failed' stop='1596806674700'>
+                    <name>I: deletePayment </name>
+                    <title>I: deletePayment </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596806667724' status='passed' stop='1596806669727'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596806669727' status='passed' stop='1596806673524'>
+                            <name>I click "Manage Payment Methods"</name>
+                            <title>I click "Manage Payment Methods"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596806673524' status='passed' stop='1596806674525'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596806674525' status='failed' stop='1596806674700'>
+                            <name>I click "button.remove-btn.remove-payment"</name>
+                            <title>I click "button.remove-btn.remove-payment"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='995482f8-48a8-42b1-b43a-854cf67ec671-attachment.png' type='image/png' size='349163'/>
+            </attachments>
+            <failure>
+                <message>Clickable element "button.remove-btn.remove-payment" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element "button.remove-btn.remove-payment" was not found by text|CSS|XPath
+                    at new ElementNotFound (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\node_modules\codeceptjs\lib\helper\WebDriver.js:2724:11)
+                    at WebDriver.click (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\node_modules\codeceptjs\lib\helper\WebDriver.js:846:7)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,8 @@
+cartridges/app_storefront_base/cartridge/static/
+coverage/
+doc/
+bin/
+cartridges/int_braintree/cartridge/scripts/braintree/braintreeAPI/braintreeXmlData.js
+cartridges/int_braintree/cartridge/static/default/js/*.js
+cartridges/int_braintree/cartridge/static/default/js/marketingSolutions.js
+test/acceptance/output

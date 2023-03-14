@@ -1,0 +1,248 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1596786984516' stop='1596787110564'>
+    <name>Checkout:</name>
+    <title>Checkout:</title>
+    <test-cases>
+        <test-case start='1596786984517' status='failed' stop='1596787047082'>
+            <name>10 Verify that user can add new PayPal account on checkout flow while there is saved one</name>
+            <title>10 Verify that user can add new PayPal account on checkout flow while there is saved one</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1596787005832' status='passed' stop='1596787012406'>
+                    <name>I click "Manage Payment Methods"</name>
+                    <title>I click "Manage Payment Methods"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1596787012406' status='passed' stop='1596787013407'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1596787013407' status='passed' stop='1596787016502'>
+                    <name>I click "Add New PayPal account"</name>
+                    <title>I click "Add New PayPal account"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1596787016502' status='passed' stop='1596787023503'>
+                    <name>I wait 7</name>
+                    <title>I wait 7</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1596787023503' status='failed' stop='1596787047082'>
+                    <name>I: usePPAsUser1Continue </name>
+                    <title>I: usePPAsUser1Continue </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596787023503' status='passed' stop='1596787023518'>
+                            <name>I grab current window handle </name>
+                            <title>I grab current window handle </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787023520' status='passed' stop='1596787023573'>
+                            <name>I switch to "iframe.component-frame.visible"</name>
+                            <title>I switch to "iframe.component-frame.visible"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787023573' status='passed' stop='1596787025574'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787025574' status='passed' stop='1596787025896'>
+                            <name>I click "[data-funding-source='paypal']"</name>
+                            <title>I click "[data-funding-source='paypal']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787025896' status='passed' stop='1596787029897'>
+                            <name>I wait 4</name>
+                            <title>I wait 4</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787029897' status='passed' stop='1596787029905'>
+                            <name>I grab all window handles </name>
+                            <title>I grab all window handles </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787029906' status='passed' stop='1596787029915'>
+                            <name>I switch to window "CDwindow-D03E7ADAB784474B7E6A63168D15E724"</name>
+                            <title>I switch to window "CDwindow-D03E7ADAB784474B7E6A63168D15E724"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787029919' status='passed' stop='1596787035919'>
+                            <name>I wait 6</name>
+                            <title>I wait 6</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787035920' status='passed' stop='1596787040397'>
+                            <name>I click "Accept"</name>
+                            <title>I click "Accept"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787040397' status='passed' stop='1596787043399'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787043399' status='passed' stop='1596787043924'>
+                            <name>I fill field "Email", "epamtester@pptest.com"</name>
+                            <title>I fill field "Email", "epamtester@pptest.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787043924' status='passed' stop='1596787044004'>
+                            <name>I click "Next"</name>
+                            <title>I click "Next"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787044004' status='passed' stop='1596787047005'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787047005' status='failed' stop='1596787047081'>
+                            <name>I fill field "Password", "epamtest"</name>
+                            <title>I fill field "Password", "epamtest"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='d81571df-cb18-47a8-a371-dfc288f0872c-attachment.png' type='image/png' size='21874'/>
+            </attachments>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=84.0.4147.105)
+                  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18362 x86_64)</message>
+                <stack-trace>Error: element not interactable
+                  (Session info: chrome=84.0.4147.105)
+                  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18362 x86_64)
+                    at getErrorFromResponseBody (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\node_modules\webdriverio\node_modules\webdriver\build\utils.js:124:10)
+                    at WebDriverRequest._request (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\node_modules\webdriverio\node_modules\webdriver\build\request.js:148:56)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Element.wrapCommandFn (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:74:23)
+                    at async Element.wrapCommandFn (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:74:23)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\node_modules\webdriverio\build\middlewares.js:21:24)
+                    at async Element.wrapCommandFn (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:74:23)
+                    at async Element.wrapCommandFn (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:74:23)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Work\PayPal\Project\Braintree\bt-dwfc\test\int_braintree\acceptance\node_modules\webdriverio\build\middlewares.js:21:24)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1596787047517' status='failed' stop='1596787077843'>
+            <name>10.1 check saved method</name>
+            <title>10.1 check saved method</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1596787069023' status='passed' stop='1596787071024'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1596787071024' status='passed' stop='1596787075687'>
+                    <name>I click "Manage Payment Methods"</name>
+                    <title>I click "Manage Payment Methods"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1596787075687' status='passed' stop='1596787077688'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1596787077688' status='failed' stop='1596787077843'>
+                    <name>I see "epamtester@pptest.com"</name>
+                    <title>I see "epamtester@pptest.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='88fded3f-9b5d-4eaf-b9cd-a222de8a5cd8-attachment.png' type='image/png' size='336538'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1596787078297' status='passed' stop='1596787110514'>
+            <name>Remove all saved methods</name>
+            <title>Remove all saved methods</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1596787099279' status='passed' stop='1596787110514'>
+                    <name>I: deletePayment </name>
+                    <title>I: deletePayment </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1596787099279' status='passed' stop='1596787101283'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787101283' status='passed' stop='1596787105188'>
+                            <name>I click "Manage Payment Methods"</name>
+                            <title>I click "Manage Payment Methods"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787105188' status='passed' stop='1596787106189'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787106189' status='passed' stop='1596787106435'>
+                            <name>I click "button.remove-btn.remove-payment"</name>
+                            <title>I click "button.remove-btn.remove-payment"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787106435' status='passed' stop='1596787108439'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787108439' status='passed' stop='1596787108514'>
+                            <name>I click "Yes"</name>
+                            <title>I click "Yes"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1596787108514' status='passed' stop='1596787110514'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

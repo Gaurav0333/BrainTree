@@ -1,0 +1,44 @@
+{
+    "hooks": [
+        {
+            "name": "app.payment.processor.braintree_credit",
+            "script": "./hooks/payment/processor/braintreeCredit"
+        },
+        {
+            "name": "app.payment.processor.braintree_paypal",
+            "script": "./hooks/payment/processor/braintreePaypal"
+        },
+        {
+            "name": "app.payment.processor.braintree_applepay",
+            "script": "./hooks/payment/processor/braintreeApplepay"
+        },
+        {
+            "name": "app.payment.processor.braintree_venmo",
+            "script": "./hooks/payment/processor/braintreeVenmo"
+        },
+        {
+            "name": "app.payment.processor.braintree_googlepay",
+            "script": "./hooks/payment/processor/braintreeGooglepay"
+        },
+        {
+            "name": "app.payment.form.processor.braintree_paypal",
+            "script": "./hooks/payment/processor/default_form_processor"
+        },
+        {
+            "name": "app.payment.form.processor.braintree_credit",
+            "script": "./hooks/payment/processor/default_form_processor"
+        },
+        {
+            "name": "app.payment.form.processor.braintree_applepay",
+            "script": "./hooks/payment/processor/default_form_processor"
+        },
+        {
+            "name": "app.payment.form.processor.braintree_venmo",
+            "script": "./hooks/payment/processor/default_form_processor"
+        },
+        {
+            "name": "app.payment.form.processor.braintree_googlepay",
+            "script": "./hooks/payment/processor/default_form_processor"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+<isif condition="${pdict.creditMessageAvaliable}">
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets');
+    </isscript>
+    <isset name="bannerConfig" value="${pdict.bannerConfig}" scope="page" />
+    <div class="row">
+        <div class="col-12">
+            <div data-pp-message data-pp-placement="cart" data-pp-amount="${pdict.paypalAmount}"
+                data-pp-style-layout="${bannerConfig.styleLayout}"
+                data-pp-style-color="${bannerConfig.styleColor || ''}"
+                data-pp-style-ratio="${bannerConfig.styleRatio || ''}"
+                data-pp-style-logo-type="${bannerConfig.styleLogoType || ''}"
+                data-pp-style-logo-position="${bannerConfig.styleLogoPosition || ''}"
+                data-pp-style-text-color="${bannerConfig.styleTextColor || ''}">
+            </div>
+        </div>
+    </div>
+</isif>
